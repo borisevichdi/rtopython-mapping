@@ -14,10 +14,12 @@ Join us in describing each basic R function as python code.
 * Implementation should be a python callable
 * Functions should be implemented as a python function using "def(...)"
 * Methods and attributes should be implemented as a python class method using "def(self, ...)"
-* "..." from R should be treated as \*args
 * Always assume that proper arguments parsing will be done for you
 * In R everything is a vector (even a single number!), in python it is convinient to use individual variables. The implementation should work both with individual python variables and numpy arrays, if this is expected.
 * If some parts are not implemented yet - fail explicitly by using "raise NotImplemented"
+* "..." from R should be treated as \*args
+* Vectors from R should be represented as numpy arrays
+* Dataframes from R should be represented as pandas dataframes
 
 See https://github.com/borisevichdi/rtopython-mapping/issues/1 if in doubts.
 
